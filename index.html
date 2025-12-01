@@ -3,10 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pokedex</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Pokedex</h1>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search Pokemon..." autocomplete="off">
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Loading Pokemon...</div>
+    <div id="pokemon-container" class="pokemon-container"></div>
+  </main>
 
   <script src="main.js"></script>
 </body>
